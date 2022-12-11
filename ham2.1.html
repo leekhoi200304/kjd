@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hàm2</title>
+</head>
+<body>
+
+</body>
+<script>
+            // Bài1
+    // function binhPhuong(number) {
+    //     let a = number * number;
+    //     return a;
+    // }
+    // let num = +prompt("nhập số vào đây");
+    // let result = binhPhuong(num);
+    // alert(result);
+
+
+            // Bài2
+    // const PI = 3.14;
+    // function tinhS(R) {
+    //
+    //     let S = R*R*PI;
+    //     return S;
+    // }
+    // function tinhC(R) {
+    //     let C = R*2*PI;
+    //     return C;
+    // }
+    // let R = +prompt("nhập bán kính");
+    // let result1 = tinhS(R);
+    // let result2 = tinhC(R);
+    // document.write("diện tích hình tròn là: " + result1+ "<br>"+ "chu vi hình tròn là "+ result2);
+
+
+            // Bài3
+    // function giaiThua(n) {
+    //     if (n===1){
+    //         return 1;
+    //     }
+    //     return n*giaiThua(n-1);
+    // }
+    // let n = +prompt("nhập số cần tính");
+    // let result = giaiThua(n)
+    // document.write("giai thừa của "+ n +" là "+ result);
+
+
+            //         Bài4
+    // function checkNum(Num) {
+    //     if (isNaN(Num)){
+    //         return false;
+    //     }else {
+    //         return true;
+    //     }
+    // }
+    // let a = +prompt("nhập kí tự bất kì");
+    // let result = checkNum(a);
+    // alert(result)
+
+
+            // Bài5
+    // function minNum(a,b,c) {
+    //     let min;
+    //     if (a<b && a<c){
+    //         min = a;
+    //     }else if (b<a && b<c){
+    //         min = b;
+    //     }else {
+    //         min =c;
+    //     }
+    //     return min;
+    // }
+    // let number1 = +prompt("nhập số thứ 1");
+    // let number2 = +prompt("nhập số thứ 2");
+    // let number3 = +prompt("nhập số thứ 3");
+    // let result = minNum(number1,number2,number3);
+    // document.write("số nhỏ nhất trong 3 số là: " + result);
+
+
+            // Bài6
+    // function nguyenDuong(number) {
+    //     let flag = false
+    //     if (Number.isInteger(number) && number > 0){
+    //         return true
+    //     }
+    //     return flag;
+    //
+    // }
+    // let num = +prompt("nhập số nguyên");
+    // let result = nguyenDuong(num);
+    // alert(result);
+
+
+            // Bài7
+    // function hoanVi(a,b) {
+    //     document.write("trước khi hoán vị: "+ a + ","+ b + '<br>');
+    //     let num = a;
+    //     a = b;
+    //     b = num;
+    //     document.write("sau khi hoán vị: " + a + "," + b);
+    // }
+    // let so1 = +prompt("nhập số thứ 1");
+    // let so2 = +prompt("nhập số thứ 2");
+    // hoanVi(so1,so2);
+
+
+            // Bài8
+    // let doDai = +prompt("Nhập độ dài mảng");
+    // let array = [];
+    // for (let i=0; i<doDai; i++){
+    //     array[i]= +prompt("nhập số thứ "+i);
+    // }
+    // function daoMang(arr) {
+    //     let first = 0;
+    //     let last = arr.length - 1;
+    //     while (first < last) {
+    //         let b = arr[first];
+    //         arr[first] = arr[last];
+    //         arr[last] = b;
+    //         first++;
+    //         last--;
+    //     }
+    //     alert(arr);
+    // }
+    // daoMang(array);
+
+
+            // Bài9
+     // let doDai = +prompt("Nhập độ dài mảng");
+     // let array = [];
+     // for (let i=0; i<doDai; i++){
+     //     array[i]= +prompt("nhập số thứ "+i);
+     // }
+     // let number = +prompt("nhập số");
+     // function check(arr, num) {
+     //     let count = 0;
+     //     for (let i=0; i<arr.length; i++){
+     //         if (num===arr[i]){
+     //             count ++;
+     //         }
+     //     }
+     //     if (count > 0){
+     //         return count;
+     //     }else {
+     //         return -1;
+     //     }
+     // }
+     // let result = check(array,number);
+     // alert(result);
+
+</script>
+</html>
