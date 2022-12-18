@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hinhchunhat</title>
+</head>
+<body>
+</body>
+<script>
+
+    class HinhChuNhat {
+        constructor(chieuDai, chieuRong ) {
+            this.chieuDai = chieuDai;
+            this.chieuRong = chieuRong;
+        }
+
+        tinhDienTich() {
+            return this.chieuDai * this.chieuRong;
+        }
+
+        tinhChuVi() {
+            return (this.chieuDai + this.chieuRong) * 2;
+        }
+    }
+
+    let chieuDai = +prompt("nhập chiều dài");
+    let chieuRong = +prompt("nhập chiều rộng");
+    let hinhChuNhat=new HinhChuNhat(chieuDai,chieuRong);
+    let dienTich = hinhChuNhat.tinhDienTich();
+    let chuVi = hinhChuNhat.tinhChuVi();
+    document.write("diện tích là :"+ dienTich+"<br>"+"chu vi là :"+chuVi);
+
+
+</script>
+</html>
